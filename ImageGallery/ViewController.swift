@@ -37,6 +37,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.minimumZoomScale = minScale;
 
         scrollView.maximumZoomScale = 1.0
+        //we set zoomScale to minScale, because we want to fit image in UIScrollView
         scrollView.zoomScale = minScale;
 
         centerScrollViewContents()
@@ -60,7 +61,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.zoomToRect(rectToZoomTo, animated: true)
     }
     
-    //thank to that delegete method our view will fit in scrollView
     func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
         return imageView
     }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0209B4471A88C13800AB9807 /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0209B4461A88C13800AB9807 /* CustomScrollViewController.swift */; };
+		0209B4491A8906E400AB9807 /* PageScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0209B4481A8906E400AB9807 /* PageScrollViewController.swift */; };
 		023BA3891A880448002B54FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BA3881A880448002B54FB /* AppDelegate.swift */; };
 		023BA38B1A880448002B54FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BA38A1A880448002B54FB /* ViewController.swift */; };
 		023BA38E1A880448002B54FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023BA38C1A880448002B54FB /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0209B4451A881D8F00AB9807 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		0209B4461A88C13800AB9807 /* CustomScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
+		0209B4481A8906E400AB9807 /* PageScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageScrollViewController.swift; sourceTree = "<group>"; };
 		023BA3831A880448002B54FB /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		023BA3871A880448002B54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023BA3881A880448002B54FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				023BA3881A880448002B54FB /* AppDelegate.swift */,
 				023BA38A1A880448002B54FB /* ViewController.swift */,
+				0209B4481A8906E400AB9807 /* PageScrollViewController.swift */,
+				0209B4461A88C13800AB9807 /* CustomScrollViewController.swift */,
 				023BA38C1A880448002B54FB /* Main.storyboard */,
 				023BA38F1A880448002B54FB /* Images.xcassets */,
 				023BA3911A880448002B54FB /* LaunchScreen.xib */,
@@ -216,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0209B4491A8906E400AB9807 /* PageScrollViewController.swift in Sources */,
 				023BA38B1A880448002B54FB /* ViewController.swift in Sources */,
 				023BA3891A880448002B54FB /* AppDelegate.swift in Sources */,
+				0209B4471A88C13800AB9807 /* CustomScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
