@@ -10,22 +10,26 @@
 	<string>ImageGallery</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>B333EE30B16BE25A499336F19E4B0C045FE49EAC</key>
+		<string>https://github.com/mkkroliks/PhotoGallery.git</string>
 		<key>D0E40346A4013C0EC93124A83632D7CAA1BCE895</key>
 		<string>heroku.com:serene-ridge-6436.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>raywenderlich-swift/ImageGallery/ImageGallery.xcodeproj</string>
+	<string>ImageGallery.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>B333EE30B16BE25A499336F19E4B0C045FE49EAC</key>
+		<string>../..</string>
 		<key>D0E40346A4013C0EC93124A83632D7CAA1BCE895</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>heroku.com:serene-ridge-6436.git</string>
+	<string>https://github.com/mkkroliks/PhotoGallery.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D0E40346A4013C0EC93124A83632D7CAA1BCE895</string>
+	<string>B333EE30B16BE25A499336F19E4B0C045FE49EAC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>D0E40346A4013C0EC93124A83632D7CAA1BCE895</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Dropbox</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B333EE30B16BE25A499336F19E4B0C045FE49EAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageGallery</string>
 		</dict>
 	</array>
 </dict>

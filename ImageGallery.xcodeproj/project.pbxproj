@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0209B4451A881D8F00AB9807 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		023BA3831A880448002B54FB /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		023BA3871A880448002B54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023BA3881A880448002B54FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		023BA3981A880448002B54FB /* ImageGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		023BA39D1A880448002B54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023BA39E1A880448002B54FB /* ImageGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryTests.swift; sourceTree = "<group>"; };
+		023BA3A81A881123002B54FB /* ImageGallery */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ImageGallery; path = "/Users/maciejkrolikowski/Dropbox/raywenderlich-swift/ImageGallery/ImageGallery"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,8 @@
 				023BA38C1A880448002B54FB /* Main.storyboard */,
 				023BA38F1A880448002B54FB /* Images.xcassets */,
 				023BA3911A880448002B54FB /* LaunchScreen.xib */,
+				0209B4451A881D8F00AB9807 /* MyPlayground.playground */,
+				023BA3A81A881123002B54FB /* ImageGallery */,
 				023BA3861A880448002B54FB /* Supporting Files */,
 			);
 			path = ImageGallery;
@@ -405,6 +409,7 @@
 				023BA3A41A880448002B54FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023BA3A51A880448002B54FB /* Build configuration list for PBXNativeTarget "ImageGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				023BA3A71A880448002B54FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
